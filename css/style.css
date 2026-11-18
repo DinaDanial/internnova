@@ -1,0 +1,60 @@
+/* INTERNOVA style v5 */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap');
+:root{--navy:#172b45;--navy2:#223d5b;--slate:#52657a;--muted:#8391a1;--line:#e7ebf0;--bg:#f5f7fa;--teal:#5e9c9a;--white:#fff}
+*{box-sizing:border-box}body{font-family:'DM Sans',sans-serif;background:var(--bg);color:#253448;font-size:14px}h1,h2,h3,h4,.brand-name{font-family:'Manrope',sans-serif;font-weight:700;letter-spacing:-.035em}h1{font-size:clamp(1.45rem,2vw,2rem)}h2{font-size:1.25rem}h3{font-size:1.05rem;margin:0}.eyebrow{font-size:.67rem;letter-spacing:.13em;font-weight:700;color:#8290a0;margin:0 0 7px}.app-shell{min-height:100vh}.sidebar{width:252px;background:var(--navy);color:#dce5ef;position:fixed;inset:0 auto 0 0;padding:25px 17px;display:flex;flex-direction:column;z-index:1000;transition:transform .25s}.sidebar-brand{display:flex;align-items:center;gap:10px;padding:0 10px 28px}.sidebar-brand img{width:38px;height:38px}.sidebar-brand strong{font:800 17px Manrope;color:#fff;letter-spacing:.04em}.sidebar-brand small{display:block;color:#aebdcd;font-size:9px;letter-spacing:.1em}.nav-caption{font-size:10px;color:#8fa2b7;letter-spacing:.14em;padding:12px 12px 8px}.side-link{display:flex;align-items:center;gap:12px;color:#c3cfdb;text-decoration:none;padding:11px 13px;border-radius:9px;margin:2px 0;font-weight:500;transition:.2s}.side-link i{font-size:17px;width:20px}.side-link:hover,.side-link.active{background:#2a4563;color:#fff}.side-link.active{box-shadow:inset 3px 0 #82b5b1}.sidebar-bottom{margin-top:auto;border-top:1px solid #ffffff20;padding-top:15px}.main-content{margin-left:252px;min-height:100vh}.topbar{height:72px;background:#fff;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;padding:0 32px;position:sticky;top:0;z-index:900}.topbar-left{display:flex;align-items:center;gap:13px}.menu-toggle{display:none;border:0;background:#f1f4f7;border-radius:8px;padding:7px 10px;color:var(--navy)}.topbar-label{font-size:12px;color:#8190a0}.user-mini{display:flex;align-items:center;gap:10px}.user-mini img{width:35px;height:35px;border-radius:50%;object-fit:cover}.user-mini strong{display:block;font-size:12px}.user-mini small{font-size:10px;color:#8a98a7}.page-content{padding:29px 32px 24px;max-width:1600px;margin:auto}.page-title-row{display:flex;justify-content:space-between;align-items:flex-start;gap:20px;margin-bottom:24px}.page-title-row p.text-secondary{margin:5px 0 0}.content-card{background:#fff;border:1px solid var(--line);border-radius:13px;padding:21px;box-shadow:0 3px 14px #1c355008}.card-heading{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:19px}.chart-icon{width:34px;height:34px;border-radius:9px;background:#eff4f6;color:var(--navy2);display:grid;place-items:center;font-size:17px}.section-heading{display:flex;justify-content:space-between;align-items:end;margin-bottom:13px}.section-heading h2{margin:0}.sample-label{font-size:11px;color:#75869a;background:#edf2f5;border-radius:30px;padding:7px 11px;white-space:nowrap}.stat-card{height:100%;background:#fff;border:1px solid var(--line);border-radius:12px;padding:18px;display:flex;align-items:center;gap:14px}.stat-icon{width:43px;height:43px;border-radius:11px;display:grid;place-items:center;background:#edf2f6;color:var(--navy2);font-size:20px;flex-shrink:0}.stat-card small{color:#8190a0;font-size:11px}.stat-card strong{display:block;font:700 23px Manrope;color:var(--navy);margin-top:3px}.data-table{font-size:12px;margin:0;white-space:nowrap}.data-table thead th{font-size:10px;letter-spacing:.07em;text-transform:uppercase;color:#8794a2;font-weight:700;border-bottom:1px solid var(--line);padding:12px 13px}.data-table tbody td{padding:13px;border-color:#eef1f4;color:#526174}.data-table tbody tr:last-child td{border-bottom:0}.table-title{font-weight:700;color:#26384d}.text-link{color:#315777;text-decoration:none;font-size:12px;font-weight:700}.text-link:hover{text-decoration:underline}.btn-primary{background:var(--navy2);border-color:var(--navy2)}.btn-primary:hover{background:#142b44;border-color:#142b44}.btn-outline-primary{color:var(--navy2);border-color:#aab8c6}.btn-outline-primary:hover{background:var(--navy2);border-color:var(--navy2)}.form-control,.form-select{font-size:13px;border-color:#dfe5eb;padding:10px 12px}.form-control:focus,.form-select:focus{border-color:#839bb0;box-shadow:0 0 0 .2rem #28476518}.badge-soft{background:#edf4f3;color:#477c78;font-weight:600}.company-card{height:100%;border:1px solid var(--line);background:#fff;border-radius:13px;padding:19px;transition:.2s}.company-card:hover{transform:translateY(-3px);box-shadow:0 9px 24px #172b4512}.company-logo{width:54px;height:54px;object-fit:contain;border:1px solid var(--line);border-radius:11px;padding:7px;background:#fff}.company-card h3{margin:13px 0 5px}.company-card p{color:#8491a0;font-size:12px}.site-footer{color:#9aa5b1;font-size:10px;text-align:center;padding:25px 0 8px}.modal-content{border:0;border-radius:14px}.modal-header,.modal-footer{border-color:var(--line)}.dark-mode{--bg:#111b28;--line:#2c3948;color:#e7edf4}.dark-mode .main-content,.dark-mode .page-content{background:#111b28}.dark-mode .topbar,.dark-mode .content-card,.dark-mode .stat-card,.dark-mode .company-card{background:#1a2838;border-color:#2c3948;color:#e7edf4}.dark-mode h1,.dark-mode h2,.dark-mode h3,.dark-mode .stat-card strong,.dark-mode .table-title{color:#edf3f8}.dark-mode .data-table td{color:#b8c4d0}.dark-mode .data-table th{color:#8ea0b2}.dark-mode .form-control,.dark-mode .form-select{background:#1a2838;color:#e7edf4;border-color:#405064}.dark-mode .about-panel{background:#1c3043;border-color:#354b60}
+@media(max-width:991.98px){.sidebar{transform:translateX(-100%)}.sidebar.show{transform:translateX(0);box-shadow:10px 0 30px #0d1d2c40}.main-content{margin-left:0}.menu-toggle{display:inline-block}.topbar{padding:0 19px}.page-content{padding:23px 19px}.sidebar-backdrop{display:none;position:fixed;inset:0;background:#0c172466;z-index:950}.sidebar-backdrop.show{display:block}}
+@media(max-width:575.98px){.topbar{height:62px}.topbar-label{display:none}.page-content{padding:19px 13px}.content-card{padding:16px}.page-title-row{display:block}.page-title-row>.btn,.page-title-row>.sample-label{display:inline-block;margin-top:12px}.section-heading{align-items:flex-start;gap:8px;flex-direction:column}.sample-label{white-space:normal}.user-mini div{display:none}.stat-card{padding:14px}.stat-card strong{font-size:20px}}
+
+/* ===== Tambahan: carta, fungsi extra ===== */
+.xbox{position:relative;height:310px}.live-clock{font-size:12px;color:#6b7b8c}.chart-dl{padding:3px 8px;line-height:1.2}
+.to-top{position:fixed;right:20px;bottom:20px;width:42px;height:42px;border:0;border-radius:50%;background:var(--navy2);color:#fff;opacity:0;pointer-events:none;transition:.3s;z-index:950}.to-top.show{opacity:1;pointer-events:auto}
+@media(max-width:767px){.live-clock{display:none}}
+/* ===== Dark mode: semua tulisan & elemen jelas ===== */
+.dark-mode{color:#f1f5f9;--bs-body-color:#f1f5f9}
+.dark-mode h1,.dark-mode h2,.dark-mode h3,.dark-mode h4,.dark-mode h5,.dark-mode h6,.dark-mode strong,.dark-mode b,.dark-mode label,.dark-mode .form-label,.dark-mode .modal-title,.dark-mode .table-title,.dark-mode .about-panel h2{color:#fff!important}
+.dark-mode p,.dark-mode li,.dark-mode td,.dark-mode th,.dark-mode span,.dark-mode .data-table tbody td,.dark-mode .about-panel p:not(.eyebrow){color:#e6edf5!important}
+.dark-mode .eyebrow,.dark-mode small,.dark-mode .text-secondary,.dark-mode .text-muted,.dark-mode .topbar-label,.dark-mode .live-clock,.dark-mode .site-footer,.dark-mode .sample-label,.dark-mode .data-table thead th,.dark-mode .company-card p,.dark-mode .stat-card small{color:#b9c8d8!important}
+.dark-mode .topbar,.dark-mode .content-card,.dark-mode .stat-card,.dark-mode .company-card,.dark-mode .modal-content,.dark-mode .about-panel{background:#1a2838;border-color:#3a4d62}
+.dark-mode .chart-icon,.dark-mode .stat-icon,.dark-mode .about-icon{background:#26394d;color:#9ec5e6!important}
+.dark-mode .sample-label{background:#26394d}
+.dark-mode .badge-soft{background:#1f4a45;color:#9ff0e3!important}
+.dark-mode .text-link{color:#9ec5e6}
+.dark-mode .btn-outline-primary,.dark-mode .btn-outline-secondary{color:#d6e6f5;border-color:#6f879e}
+.dark-mode .btn-outline-primary:hover,.dark-mode .btn-outline-secondary:hover{background:#3b6b94;border-color:#3b6b94;color:#fff}
+.dark-mode .form-control::placeholder{color:#93a4b6}
+.dark-mode .menu-toggle{background:#26394d;color:#fff}
+.dark-mode .table{--bs-table-color:#e6edf5;--bs-table-bg:transparent;--bs-table-border-color:#34475b}
+.dark-mode .data-table tbody td{border-color:#34475b}
+.dark-mode .btn-close{filter:invert(1)}
+.dark-mode .welcome-panel h1,.dark-mode .welcome-panel p{color:#fff!important}
+.dark-mode .form-check-label,.dark-mode .form-range{color:#e6edf5}
+
+/* ===== Gambar logo & user ===== */
+.sidebar-brand img{width:56px;height:38px;object-fit:contain;border-radius:6px}
+.login-brand .login-logo{width:auto;max-width:200px;height:60px;object-fit:contain;border-radius:6px}
+.small-logo{width:auto;max-width:90px;height:34px;object-fit:contain}
+.user-mini img,.profile-hero{object-fit:cover;object-position:center top}
+.company-logo{object-fit:contain;background:#fff}
+/* ===== Dark mode  ===== */
+.dark-mode .main-content :is(div,span,p,li,td,th,dt,dd,label,h1,h2,h3,h4,h5,h6,strong,b,small,em,option,legend){color:#eef3f8!important}
+.dark-mode .modal-content{color:#eef3f8}
+.dark-mode .main-content .eyebrow,.dark-mode .main-content small,.dark-mode .main-content .text-secondary,.dark-mode .main-content .text-muted,.dark-mode .main-content .topbar-label,.dark-mode .main-content .live-clock,.dark-mode .main-content .site-footer,.dark-mode .main-content .sample-label,.dark-mode .main-content .data-table thead th,.dark-mode .main-content .company-card p,.dark-mode .main-content .stat-card small{color:#b9c8d8!important}
+
+.dark-mode .main-content .chart-icon,.dark-mode .main-content .stat-icon,.dark-mode .main-content .about-icon{color:#9ec5e6!important}
+.dark-mode .main-content .badge-soft{color:#9ff0e3!important}
+.dark-mode .main-content .badge{color:#fff!important}
+.dark-mode .main-content .badge-soft.badge{color:#9ff0e3!important}
+.dark-mode .main-content .welcome-panel :is(h1,p,span){color:#fff!important}
+.dark-mode .main-content .welcome-panel p:not(.eyebrow){color:#d9e3ec!important}
+.dark-mode .main-content .eyebrow{color:#b9c8d8!important}
+.dark-mode .form-select option{background:#1a2838;color:#eef3f8!important}
+
+/* ===== Dark mode v3: Position, link, placeholder, modal ===== */
+.dark-mode .main-content .data-table .table-title{color:#fff!important;font-weight:700}
+.dark-mode .main-content .data-table tbody td{color:#eef3f8!important}
+.dark-mode .main-content .text-link{color:#9ec5e6!important}
+.dark-mode .main-content .form-control,.dark-mode .main-content .form-select{background-color:#1a2838;color:#fff}
+.dark-mode .main-content .form-control::placeholder{color:#a9b8c8!important;opacity:1}
+.dark-mode .modal-content :is(div,span,p,h1,h2,h3,h4,h5,h6,b,strong,label,li){color:#eef3f8!important}
+.dark-mode .modal-content .text-secondary{color:#b9c8d8!important}
+.dark-mode .company-logo{border-color:#9ec5e6}

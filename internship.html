@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Internship Opportunities | INTERNOVA</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet"></head>
+<body><div class="app-shell"><div id="sidebarMount" data-active="internship"></div><main class="main-content"><div id="topbarMount"></div><div class="page-content">
+
+    
+
+<div class="page-title-row"><div><p class="eyebrow">EXPLORE OPPORTUNITIES</p><h1>Internship Opportunities</h1><p class="text-secondary">Browse sample internship listings and find a role that matches your interests.</p></div><button class="btn btn-outline-primary" id="resetInternship"><i class="bi bi-arrow-counterclockwise me-1"></i> Reset filters</button></div>
+<div class="content-card mb-4"><div class="row g-2"><div class="col-12 col-md-5"><input id="internSearch" class="form-control" placeholder="Search position or company..."></div><div class="col-6 col-md-3"><select id="industryFilter" class="form-select"><option value="">All industries</option></select></div><div class="col-6 col-md-2"><select id="locationFilter" class="form-select"><option value="">All locations</option></select></div><div class="col-12 col-md-2"><select id="sortInternships" class="form-select"><option value="deadline">Sort: deadline</option><option value="company">Sort: company</option><option value="allowance">Sort: allowance</option></select></div></div></div>
+<div class="d-flex justify-content-between align-items-center mb-2"><span class="text-secondary small" id="internCount"></span><button class="btn btn-sm btn-outline-secondary" id="exportInternships"><i class="bi bi-download me-1"></i> Export CSV</button></div>
+<div class="content-card"><div class="table-responsive"><table class="table align-middle data-table"><thead><tr><th>Position</th><th>Company</th><th>Industry</th><th>Location</th><th>Duration</th><th>Allowance</th><th>Deadline</th><th>Action</th></tr></thead><tbody id="internshipRows"></tbody></table></div></div>
+<div class="modal fade" id="internshipModal" tabindex="-1"><div class="modal-dialog modal-dialog-centered"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Internship details</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body" id="internshipDetails"></div><div class="modal-footer"><button class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button><button class="btn btn-primary" id="applyFromModal">Apply (demo)</button></div></div></div></div>
+
+<footer class="site-footer">© 2026 INTERNOVA · Academic prototype for IMS566.</footer></div></main></div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+<script src="js/data.js"></script><script src="js/utils.js"></script><script src="js/nav.js"></script><script src="js/internship.js"></script>
+</body></html>

@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard | INTERNOVA</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="css/style.css?v=4" rel="stylesheet">
+<link href="css/responsive.css?v=4" rel="stylesheet">
+  <link href="css/dashboard.css?v=4" rel="stylesheet">
+</head>
+<body>
+  <div id="appShell" class="app-shell">
+    <div id="sidebarMount"></div>
+    <main class="main-content">
+      <div id="topbarMount"></div>
+      <div class="page-content">
+        <section class="welcome-panel mb-4">
+          <div>
+            <p class="eyebrow">STUDENT OVERVIEW</p>
+            <h1>Welcome Nurdina <span></span></h1>
+            <p class="mb-0">Your next opportunity starts with the right information.</p>
+          </div>
+          <img src="image/user-profile.svg" alt="Nurdina profile picture" class="profile-hero" data-kind="user" onerror="imgNext(this)">
+        </section>
+
+        <section class="about-panel mb-4">
+          <div class="about-icon"><i class="bi bi-compass"></i></div>
+          <div>
+            <p class="eyebrow mb-1">ABOUT INTERNOVA</p>
+            <h2>A clearer direction for your future.</h2>
+            <p class="mb-0">INTERNOVA combines internship opportunities, company information and career insights in one convenient platform. It helps students explore possible workplaces, identify useful skills and make more informed decisions as they prepare to enter the professional world. Our goal is simple: connect learning with real career possibilities.</p>
+          </div>
+        </section>
+
+        <div class="section-heading">
+          <div><p class="eyebrow">AT A GLANCE</p><h2>Platform Overview</h2></div>
+          <span class="sample-label"><i class="bi bi-info-circle me-1"></i> Sample data for demonstration</span>
+        </div>
+        <section class="row g-3 mb-4" id="kpiCards"></section>
+
+        <section class="row g-3 mb-4">
+          <div class="col-12 col-xl-7"><div class="content-card h-100"><div class="card-heading"><div><p class="eyebrow">OPPORTUNITY INSIGHTS</p><h3>Internships by Industry</h3></div><span class="chart-icon"><i class="bi bi-bar-chart"></i></span></div><canvas id="industryChart" height="115"></canvas></div></div>
+          <div class="col-12 col-xl-5"><div class="content-card h-100"><div class="card-heading"><div><p class="eyebrow">LOCATION OVERVIEW</p><h3>Internships by Location</h3></div><span class="chart-icon"><i class="bi bi-geo-alt"></i></span></div><canvas id="locationChart" height="180"></canvas></div></div>
+        </section>
+        <section class="row g-3 mb-4">
+          <div class="col-12 col-xl-7"><div class="content-card h-100"><div class="card-heading"><div><p class="eyebrow">GRADUATE OUTLOOK</p><h3>Employment Rate by Year</h3></div><span class="chart-icon"><i class="bi bi-graph-up"></i></span></div><canvas id="employmentChart" height="120"></canvas></div></div>
+          <div class="col-12 col-xl-5"><div class="content-card h-100"><div class="card-heading"><div><p class="eyebrow">CAREER DEVELOPMENT</p><h3>In-demand Skills</h3></div><span class="chart-icon"><i class="bi bi-lightbulb"></i></span></div><canvas id="skillsChart" height="180"></canvas></div></div>
+        </section>
+
+        <div class="section-heading"><div><p class="eyebrow">MORE INSIGHTS</p><h2>Internship Analytics</h2></div></div>
+<section class="row g-3 mb-4">
+<div class="col-12 col-xl-6"><div class="content-card h-100"><div class="card-heading"><div><p class="eyebrow">ALLOWANCE</p><h3>Average Allowance by Company (RM)</h3></div></div><div class="xbox"><canvas id="allowanceChart"></canvas></div></div></div>
+<div class="col-12 col-xl-6"><div class="content-card h-100"><div class="card-heading"><div><p class="eyebrow">DURATION</p><h3>Internship Duration</h3></div></div><div class="xbox"><canvas id="durationChart"></canvas></div></div></div>
+<div class="col-12 col-xl-6"><div class="content-card h-100"><div class="card-heading"><div><p class="eyebrow">TIMELINE</p><h3>Application Deadlines by Month</h3></div></div><div class="xbox"><canvas id="deadlineChart"></canvas></div></div></div>
+<div class="col-12 col-xl-6"><div class="content-card h-100"><div class="card-heading"><div><p class="eyebrow">COMPANY MIX</p><h3>Companies by Industry</h3></div></div><div class="xbox"><canvas id="industryCompanyChart"></canvas></div></div></div>
+</section>
+<section class="about-panel mb-4"><div class="about-icon"><i class="bi bi-lightbulb"></i></div><div><p class="eyebrow mb-1">CAREER TIP OF THE DAY</p><p class="mb-2" id="tipText"></p><button class="btn btn-sm btn-outline-primary" id="tipBtn">Next tip</button></div></section>
+<section class="content-card mb-4">
+          <div class="card-heading"><div><p class="eyebrow">LATEST LISTINGS</p><h3>Featured Internship Opportunities</h3></div><a href="internship.html" class="text-link">View all <i class="bi bi-arrow-right"></i></a></div>
+          <div class="table-responsive"><table class="table align-middle data-table"><thead><tr><th>Position</th><th>Company</th><th>Location</th><th>Allowance</th><th>Deadline</th></tr></thead><tbody id="featuredInternships"></tbody></table></div>
+        </section>
+        <footer class="site-footer">© 2026 INTERNOVA · Internship, Innovation & Career. Academic prototype for IMS566.</footer>
+      </div>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+  <script src="js/data.js?v=4"></script><script src="js/utils.js?v=4"></script><script src="js/nav.js?v=4"></script><script src="js/dashboard.js?v=4"></script><script src="js/chart.js?v=4"></script>
+</body>
+</html>
